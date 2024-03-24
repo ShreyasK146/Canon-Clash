@@ -4,6 +4,3 @@
 
 mobile version of the game is in alpha test
 
-
-
-Source Code for PC - > https://drive.google.com/drive/folders/1W9DQULpc5Az-sM_TqgmwZkA3yXuSpOJI?usp=drive_link
