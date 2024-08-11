@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6c26795f6a61c45895f77b689b3d3e, type: 3}
+  m_Name: CanonBall
+  m_EditorClassIdentifier: 
+  id: 10
+  itemName: CanonBall
+  damagePoint: 120
+  icon: {fileID: -225014841, guid: 35390d98dbd34f246b65162954e34342, type: 3}
+  prefab: {fileID: 5280178712195060729, guid: 642dc0d0b202be84ab4af6d68d235fc6, type: 3}

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 9e856f77-21cf-49a1-a67f-f2c44b7075e8
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: asia
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - ActivateWeaponSelectionUI
+  - SynchronizeMainGrid
+  - SynchronizeSeed
+  - SynchronizeGrid
+  - WaitForSeedSynchronization
+  - SynchronizeSeed2
+  - InstantiateItem
+  - RandomSelection2
+  - ClearItems2
+  - InstantiateItemBuffered
+  - SyncInventoryForPlayer2
+  - DelayedSyncForPlayer2
+  - PopulatePlayerAndEnemyInventory
+  - DestroyItem
+  - SyncForPlayer1
+  - SyncForPlayer2
+  - PlayerMovementandLaunch
+  - DeactivateWeaponSelectionUI
+  - ActivateUI
+  - GenerateWorld
+  - ActivateGround
+  - ActiveThePlayer
+  - ActiveThePlayers
+  - SynchronizeVariables
+  - SyncParticleEffects
+  - SyncParticleEffsects
+  - LaunchProjectile2
+  - InstantiateProjectile2
+  - PositionTheCanon2
+  - StartLaunchProcess2
+  - PositioningTheCanon
+  - LaunchProjectile
+  - Wait
+  - Launch
+  - InstantiateProjectile
+  - PositionCanon
+  - ApplyForce1
+  - ApplyForce2
+  - OnDropdownValueChanged
+  - PopulateDropDown
+  - UpdateHealth
+  - UpdateHealth2
+  - ApplyForce
+  - LaunchRock
+  - LaunchRock2
+  - SyncProjectileState
+  - SyncProjectileState2
+  - ShowMessage
+  - DestroyPrefab
+  - ShowEndMessage
+  - RestartGame
+  - ActivateStart
+  - DestroyPrefab2
+  - DeactivateStart
+  - PointerMoved
+  - PointerMoved2
+  - PointerStopMoved
+  - PointerStopMoved2
+  - DisablePointer
+  - ShowPointer
+  - RemovePointer
+  - TestMethod
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 1

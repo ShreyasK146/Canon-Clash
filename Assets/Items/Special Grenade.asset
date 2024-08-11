@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6c26795f6a61c45895f77b689b3d3e, type: 3}
+  m_Name: Special Grenade
+  m_EditorClassIdentifier: 
+  id: 40
+  itemName: SpecialGrenade
+  damagePoint: 170
+  icon: {fileID: 1490364809, guid: 8cd1226d7ca14a54eb5dfabca156c1fc, type: 3}
+  prefab: {fileID: 7951655132680171830, guid: a1f986b5096977547b8b51bb258711ac, type: 3}

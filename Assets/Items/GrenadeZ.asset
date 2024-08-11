@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6c26795f6a61c45895f77b689b3d3e, type: 3}
+  m_Name: GrenadeZ
+  m_EditorClassIdentifier: 
+  id: 25
+  itemName: GrenadeZ
+  damagePoint: 130
+  icon: {fileID: -2109884616, guid: e7ce2b1bcd9833c4b88d66584032b97e, type: 3}
+  prefab: {fileID: 5761259842399401676, guid: c97a0640956de45478d41d9c65b74b5e, type: 3}

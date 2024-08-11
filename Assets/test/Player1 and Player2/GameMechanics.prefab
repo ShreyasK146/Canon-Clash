@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2245202278767918584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2245202278767918587}
+  - component: {fileID: 2245202278767918586}
+  - component: {fileID: 2245202278767918585}
+  - component: {fileID: 2245202278959409548}
+  m_Layer: 0
+  m_Name: GameMechanics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2245202278767918587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2245202278767918584}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.083843, y: 535.42175, z: -3.4709451}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2245202278767918586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2245202278767918584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cfd0943d0d54284f91d73f82c9d8e37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startButton: {fileID: 0}
+  gridItems: {fileID: 0}
+  weaponSelect: {fileID: 0}
+  player: {fileID: 0}
+  enemy: {fileID: 0}
+  player1: {fileID: 4659145316436267266, guid: d18f4bfce15ad2b47bc908912d1de751, type: 3}
+  player2: {fileID: 4659145316436267266, guid: 6bc249667ade874448f7159912082a92, type: 3}
+  player1Instance: {fileID: 0}
+  player2Instance: {fileID: 0}
+  weaponDropDown: {fileID: 0}
+  healthBar: {fileID: 0}
+  menu: {fileID: 0}
+  grounds: {fileID: 0}
+  inventoryButton: {fileID: 0}
+  image: {fileID: 0}
+  gameManagers: {fileID: 0}
+--- !u!114 &2245202278767918585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2245202278767918584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f86ac3a9f470a43b064db41e5fd3b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasForWeaponSelect: {fileID: 0}
+  playerWeaponSelect: {fileID: 0}
+  gameManagers: {fileID: 0}
+  player: {fileID: 0}
+  enemy: {fileID: 0}
+  healthBar: {fileID: 0}
+  playerWins: {fileID: 0}
+  enemyWins: {fileID: 0}
+  EndMessageCanvas: {fileID: 0}
+  projectileDamage: {fileID: 0}
+  restartToggle: {fileID: 0}
+  mainMenu: {fileID: 0}
+  restart: {fileID: 0}
+  gameStarted: 0
+  waitEnd: 0
+  offlineMode: 1
+  playersTurn: 0
+  enemysTurn: 0
+  player1Turn: 1
+  player2Turn: 0
+  died: 0
+  hp: 100
+  launcher: {fileID: 0}
+  pvp: {fileID: 0}
+  gameStart: {fileID: 2245202278767918586}
+  player1ProjectileDestroyed: 1
+  player2ProjectileDestroyed: 0
+  playersProjectileDestroyed: 0
+  enemysProjectileDestroyed: 0
+--- !u!114 &2245202278959409548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2245202278767918584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

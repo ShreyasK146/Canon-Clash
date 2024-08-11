@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6c26795f6a61c45895f77b689b3d3e, type: 3}
+  m_Name: BlackBarrel
+  m_EditorClassIdentifier: 
+  id: 6
+  itemName: BlackBarrel
+  damagePoint: 130
+  icon: {fileID: 1417612748, guid: 9a9545cb16e68f143944e0cdd3478d77, type: 3}
+  prefab: {fileID: 8228435735522109599, guid: 37cbd4498743dbb47a93ddd416da5bc2, type: 3}

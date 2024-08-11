@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7003543042380847391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7003543042380847389}
+  - component: {fileID: 7003543042380847390}
+  - component: {fileID: 1605646625}
+  - component: {fileID: 1605646627}
+  m_Layer: 0
+  m_Name: ProjectileMechanics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7003543042380847389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7003543042380847391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.083843, y: 535.42175, z: -3.4709451}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7003543042380847390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7003543042380847391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 443ea5dba1449f64598d8b4420947911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerProjectilePrefab: {fileID: 0}
+  playerPreviousProjectile: {fileID: 0}
+  projectileLaunched: 0
+  grid: {fileID: 0}
+  weaponSelectCanvas: {fileID: 0}
+  playerItemCurrentNumber: 0
+  playerDropdown: {fileID: 0}
+  enemyItem: {fileID: 0}
+  mainMenu: {fileID: 0}
+  rockItemPrefab: {fileID: 859174117550574314, guid: 9b5be75464a2354479809abe4a3a31c5, type: 3}
+  rock: {fileID: 8106805091635950685, guid: 26adfcd7c9d0a1a4a9185a5251d5c012, type: 3}
+  rockLaunched: 0
+--- !u!114 &1605646625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7003543042380847391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &1605646627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7003543042380847391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48fabeb94cc942341b95b533eb09dc97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 250
+  textHealth: {fileID: 0}
+  grid: {fileID: 0}
+  endMessageCanvas: {fileID: 0}
+  endMessage: {fileID: 0}

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas 1
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 1d33c29f963929b49a148d9f84afb5e0, type: 3}
+    - {fileID: 2800000, guid: 6d67ca0d508d39a4697c9c713e1c461c, type: 3}
+    - {fileID: 2800000, guid: 0d48f53def7f2714b98183b692e5334d, type: 3}
+    - {fileID: 2800000, guid: f4799f1f4e92dfb419274fc6155286a7, type: 3}
+    - {fileID: 2800000, guid: 640ac38e44d953a48817cc594b3c3c9e, type: 3}
+    - {fileID: 2800000, guid: 3b7db9f6b90d3764f99799acc5b2747c, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3b7db9f6b90d3764f99799acc5b2747c, type: 3}
+  - {fileID: 1581491990, guid: 6d67ca0d508d39a4697c9c713e1c461c, type: 3}
+  - {fileID: 2107391443, guid: 6d67ca0d508d39a4697c9c713e1c461c, type: 3}
+  - {fileID: -568409715, guid: 6d67ca0d508d39a4697c9c713e1c461c, type: 3}
+  - {fileID: 981293153, guid: 6d67ca0d508d39a4697c9c713e1c461c, type: 3}
+  - {fileID: 1940058894, guid: 0d48f53def7f2714b98183b692e5334d, type: 3}
+  - {fileID: 446596638, guid: 0d48f53def7f2714b98183b692e5334d, type: 3}
+  - {fileID: 2098674744, guid: 640ac38e44d953a48817cc594b3c3c9e, type: 3}
+  - {fileID: 2107436352, guid: 640ac38e44d953a48817cc594b3c3c9e, type: 3}
+  - {fileID: 1401907710, guid: 640ac38e44d953a48817cc594b3c3c9e, type: 3}
+  - {fileID: 21300000, guid: f4799f1f4e92dfb419274fc6155286a7, type: 3}
+  - {fileID: -869118317, guid: 1d33c29f963929b49a148d9f84afb5e0, type: 3}
+  - {fileID: -1680274811, guid: 1d33c29f963929b49a148d9f84afb5e0, type: 3}
+  - {fileID: -1965770467, guid: 1d33c29f963929b49a148d9f84afb5e0, type: 3}
+  - {fileID: -989852872, guid: 1d33c29f963929b49a148d9f84afb5e0, type: 3}
+  - {fileID: -1858346569, guid: 1d33c29f963929b49a148d9f84afb5e0, type: 3}
+  - {fileID: -1659044623, guid: 1d33c29f963929b49a148d9f84afb5e0, type: 3}
+  - {fileID: 1840233576, guid: 1d33c29f963929b49a148d9f84afb5e0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - icons8-chevron-down-64
+  - 4237775-removebg-preview_0
+  - 4237775-removebg-preview_1
+  - 4237775-removebg-preview_2
+  - 4237775-removebg-preview_3
+  - redarrow
+  - green arrow
+  - slider_1
+  - slider_0
+  - slider_2
+  - icons8-heart-32
+  - UI-removebg_2
+  - UI-removebg_3
+  - UI-removebg_0
+  - UI-removebg_1
+  - UI-removebg_6
+  - UI-removebg_4
+  - UI-removebg_5
+  m_RenderDataMap: {}
+  m_Tag: Atlas 1
+  m_IsVariant: 0
